@@ -1,0 +1,47 @@
+<testsuite failures="0" name="src/test/java/Karate/Demo/Dog.feature" skipped="0" tests="4" time="4.230415">
+  <testcase classname="src.test.java.Karate.Demo.Dog" name="API request to produce a list of all dog breeds." time="2.488781">
+    <system-out>Given url 'https://dog.ceo/api/breeds/list/all' ........................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.Karate.Demo.Dog" name="To check the retriever is present in the results" time="0.565634">
+    <system-out>Given url 'https://dog.ceo/api/breeds/list/all' ........................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+Given url 'https://dog.ceo/api/breeds/list/all' ........................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match response.message.retriever != null .............................. passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.Karate.Demo.Dog" name="API request to produce a list of sub-breeds for “retriever”." time="0.668099">
+    <system-out>Given url 'https://dog.ceo/api/breeds/list/all' ........................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+Given url 'https://dog.ceo/api/breeds/list/all' ........................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match response.message.retriever != null .............................. passed
+Given url 'https://dog.ceo/api/breed/retriever/list' ...................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == {"message":["chesapeake","curly","flatcoated","golden"],"status":"success"} . passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.Karate.Demo.Dog" name="API request to produce a random image / link for the sub-breed “golden”" time="0.507901">
+    <system-out>Given url 'https://dog.ceo/api/breeds/list/all' ........................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+Given url 'https://dog.ceo/api/breeds/list/all' ........................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match response.message.retriever != null .............................. passed
+Given url 'https://dog.ceo/api/breed/retriever/list' ...................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == {"message":["chesapeake","curly","flatcoated","golden"],"status":"success"} . passed
+Given url 'https://dog.ceo/api/breed/retriever/golden/images/random' ...... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match response.status == 'success' .................................... passed
+Then print response ....................................................... passed</system-out>
+  </testcase>
+</testsuite>

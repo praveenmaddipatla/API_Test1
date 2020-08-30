@@ -1,0 +1,128 @@
+19:36:47.360 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+19:36:48.483 request:
+1 > GET https://dog.ceo/api/breeds/list/all
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: dog.ceo
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_251)
+
+19:36:49.734 response time in milliseconds: 1241.85
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5cb046a69e0f8074-CPT
+1 < Cache-Control: max-age=1800
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Sun, 30 Aug 2020 17:36:47 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d9f5c68e84e56b87ae7a64d52509ff66a1598809007; expires=Tue, 29-Sep-20 17:36:47 GMT; path=/; domain=.dog.ceo; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: 
+1 < Via: 1.1 varnish (Varnish/6.3), 1.1 varnish (Varnish/6.3)
+1 < X-Cache: HIT
+1 < X-Cache-Age: 11085
+1 < X-Cache-Hits: 4407
+1 < X-Powered-By: PHP/7.3.17
+1 < cf-request-id: 04e20a7c1c00008074bab6d200000001
+{"message":{"affenpinscher":[],"african":[],"airedale":[],"akita":[],"appenzeller":[],"australian":["shepherd"],"basenji":[],"beagle":[],"bluetick":[],"borzoi":[],"bouvier":[],"boxer":[],"brabancon":[],"briard":[],"buhund":["norwegian"],"bulldog":["boston","english","french"],"bullterrier":["staffordshire"],"cairn":[],"cattledog":["australian"],"chihuahua":[],"chow":[],"clumber":[],"cockapoo":[],"collie":["border"],"coonhound":[],"corgi":["cardigan"],"cotondetulear":[],"dachshund":[],"dalmatian":[],"dane":["great"],"deerhound":["scottish"],"dhole":[],"dingo":[],"doberman":[],"elkhound":["norwegian"],"entlebucher":[],"eskimo":[],"finnish":["lapphund"],"frise":["bichon"],"germanshepherd":[],"greyhound":["italian"],"groenendael":[],"havanese":[],"hound":["afghan","basset","blood","english","ibizan","plott","walker"],"husky":[],"keeshond":[],"kelpie":[],"komondor":[],"kuvasz":[],"labrador":[],"leonberg":[],"lhasa":[],"malamute":[],"malinois":[],"maltese":[],"mastiff":["bull","english","tibetan"],"mexicanhairless":[],"mix":[],"mountain":["bernese","swiss"],"newfoundland":[],"otterhound":[],"ovcharka":["caucasian"],"papillon":[],"pekinese":[],"pembroke":[],"pinscher":["miniature"],"pitbull":[],"pointer":["german","germanlonghair"],"pomeranian":[],"poodle":["miniature","standard","toy"],"pug":[],"puggle":[],"pyrenees":[],"redbone":[],"retriever":["chesapeake","curly","flatcoated","golden"],"ridgeback":["rhodesian"],"rottweiler":[],"saluki":[],"samoyed":[],"schipperke":[],"schnauzer":["giant","miniature"],"setter":["english","gordon","irish"],"sheepdog":["english","shetland"],"shiba":[],"shihtzu":[],"spaniel":["blenheim","brittany","cocker","irish","japanese","sussex","welsh"],"springer":["english"],"stbernard":[],"terrier":["american","australian","bedlington","border","dandie","fox","irish","kerryblue","lakeland","norfolk","norwich","patterdale","russell","scottish","sealyham","silky","tibetan","toy","westhighland","wheaten","yorkshire"],"vizsla":[],"waterdog":["spanish"],"weimaraner":[],"whippet":[],"wolfhound":["irish"]},"status":"success"}
+
+19:36:49.884 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+19:36:49.887 request:
+1 > GET https://dog.ceo/api/breeds/list/all
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: dog.ceo
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_251)
+
+19:36:50.393 response time in milliseconds: 502.96
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5cb046ab48ac492d-CPT
+1 < Cache-Control: max-age=1800
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Sun, 30 Aug 2020 17:36:48 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d96044c6e13650f2c7657d9c4c277c6ea1598809007; expires=Tue, 29-Sep-20 17:36:47 GMT; path=/; domain=.dog.ceo; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: 
+1 < Via: 1.1 varnish (Varnish/6.3), 1.1 varnish (Varnish/6.3)
+1 < X-Cache: HIT
+1 < X-Cache-Age: 11086
+1 < X-Cache-Hits: 4408
+1 < X-Powered-By: PHP/7.3.17
+1 < cf-request-id: 04e20a7f090000492d6e82c200000001
+{"message":{"affenpinscher":[],"african":[],"airedale":[],"akita":[],"appenzeller":[],"australian":["shepherd"],"basenji":[],"beagle":[],"bluetick":[],"borzoi":[],"bouvier":[],"boxer":[],"brabancon":[],"briard":[],"buhund":["norwegian"],"bulldog":["boston","english","french"],"bullterrier":["staffordshire"],"cairn":[],"cattledog":["australian"],"chihuahua":[],"chow":[],"clumber":[],"cockapoo":[],"collie":["border"],"coonhound":[],"corgi":["cardigan"],"cotondetulear":[],"dachshund":[],"dalmatian":[],"dane":["great"],"deerhound":["scottish"],"dhole":[],"dingo":[],"doberman":[],"elkhound":["norwegian"],"entlebucher":[],"eskimo":[],"finnish":["lapphund"],"frise":["bichon"],"germanshepherd":[],"greyhound":["italian"],"groenendael":[],"havanese":[],"hound":["afghan","basset","blood","english","ibizan","plott","walker"],"husky":[],"keeshond":[],"kelpie":[],"komondor":[],"kuvasz":[],"labrador":[],"leonberg":[],"lhasa":[],"malamute":[],"malinois":[],"maltese":[],"mastiff":["bull","english","tibetan"],"mexicanhairless":[],"mix":[],"mountain":["bernese","swiss"],"newfoundland":[],"otterhound":[],"ovcharka":["caucasian"],"papillon":[],"pekinese":[],"pembroke":[],"pinscher":["miniature"],"pitbull":[],"pointer":["german","germanlonghair"],"pomeranian":[],"poodle":["miniature","standard","toy"],"pug":[],"puggle":[],"pyrenees":[],"redbone":[],"retriever":["chesapeake","curly","flatcoated","golden"],"ridgeback":["rhodesian"],"rottweiler":[],"saluki":[],"samoyed":[],"schipperke":[],"schnauzer":["giant","miniature"],"setter":["english","gordon","irish"],"sheepdog":["english","shetland"],"shiba":[],"shihtzu":[],"spaniel":["blenheim","brittany","cocker","irish","japanese","sussex","welsh"],"springer":["english"],"stbernard":[],"terrier":["american","australian","bedlington","border","dandie","fox","irish","kerryblue","lakeland","norfolk","norwich","patterdale","russell","scottish","sealyham","silky","tibetan","toy","westhighland","wheaten","yorkshire"],"vizsla":[],"waterdog":["spanish"],"weimaraner":[],"whippet":[],"wolfhound":["irish"]},"status":"success"}
+
+19:36:50.467 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+19:36:50.476 request:
+1 > GET https://dog.ceo/api/breed/retriever/list
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: dog.ceo
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_251)
+
+19:36:51.131 response time in milliseconds: 650.41
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5cb046aef813808c-CPT
+1 < Cache-Control: max-age=1800
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Sun, 30 Aug 2020 17:36:48 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d307d290fd69cbef206aee2dd244649c91598809008; expires=Tue, 29-Sep-20 17:36:48 GMT; path=/; domain=.dog.ceo; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: 
+1 < Via: 1.1 varnish (Varnish/6.3), 1.1 varnish (Varnish/6.3)
+1 < X-Cache: HIT
+1 < X-Cache-Age: 7395
+1 < X-Cache-Hits: 5
+1 < X-Powered-By: PHP/7.3.17
+1 < cf-request-id: 04e20a815a0000808c69142200000001
+{"message":["chesapeake","curly","flatcoated","golden"],"status":"success"}
+
+19:36:51.167 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+19:36:51.180 request:
+1 > GET https://dog.ceo/api/breed/retriever/golden/images/random
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: dog.ceo
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_251)
+
+19:36:51.667 response time in milliseconds: 483.70
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5cb046b36b81492d-CPT
+1 < Cache-Control: no-cache, private
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Sun, 30 Aug 2020 17:36:49 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d0e983e5712cfb9f48c5db20cf3ad79771598809009; expires=Tue, 29-Sep-20 17:36:49 GMT; path=/; domain=.dog.ceo; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: 
+1 < Via: 1.1 varnish (Varnish/6.3), 1.1 varnish (Varnish/6.3)
+1 < X-Cache: MISS
+1 < X-Cache-Hits: 0
+1 < X-Powered-By: PHP/7.3.17
+1 < cf-request-id: 04e20a84220000492d6c2a6200000001
+{"message":"https:\/\/images.dog.ceo\/breeds\/retriever-golden\/n02099601_2663.jpg","status":"success"}
+
+19:36:51.677 [print] {
+  "message": "https://images.dog.ceo/breeds/retriever-golden/n02099601_2663.jpg",
+  "status": "success"
+}
+
